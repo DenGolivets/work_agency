@@ -90,8 +90,9 @@ const Price = (props: Props) => {
               data-aos-anchor-placement='top-center'
               data-aos={card.dataAos}
               data-aos-delay={card.aosDelay}
+              key={index}
             >
-              <PricingCard key={index} {...card} />
+              <PricingCard {...card} />
             </div>
           ))}
         </div>
