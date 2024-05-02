@@ -2,7 +2,7 @@
 
 import { useButtonContext } from '@/app/context/ButtonContext';
 import Image from 'next/image';
-import React, { FC, useState } from 'react'
+import React, { FC } from 'react'
 
 const CardButton: FC = () => {
 
